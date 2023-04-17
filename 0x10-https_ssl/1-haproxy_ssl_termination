@@ -35,7 +35,7 @@ defaults
 
 frontend webserver
     bind *:80
-    bind *:443 ssl crt /etc/letsencrypt/live/www.ketranix.tech/fullchain.pem
+    bind *:443 ssl crt /etc/letsencrypt/live/ketranix.tech/fullchain.pem
     mode http
     default_backend webfarm
 
